@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        function operations(n1,n2)
+        {
+    var sum = n1 + n2;
+    var difference = n1 - n2;
+    var product = n1 * n2;
+    var quotient = n1 / n2;
+ 
+    return {
+      s: sum,
+      diff: difference,
+      prod: product,
+      q: quotient
+    };
+  }
+ 
+  var result = operations(20, 5);
+  console.log("Sum:", result.s);
+  console.log("Difference:", result.diff);
+  console.log("Product:", result.prod);
+  console.log("Quotient:", result.q);
+ 
+    </script>
+
+</body>
+</html>
